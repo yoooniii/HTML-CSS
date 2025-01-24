@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(
+    129deg,
+    rgba(15, 69, 110, 1) 12%,
+    rgba(67, 184, 46, 1) 84%
+  );
+  background-blend-mode: normal;
+}
+h1 {
+    text-align: center;
+    color: azure;
+}
+P{
+    font-size:large;
+    color: azure;
+    margin:10px;
+}
+#one {
+    font-family:monospace;
+}
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#three{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+
+}
+.c1{
+    background-color: lightsteelblue;
+}
+.c2{
+    background-color: plum;
+}
+#code {
+    border: 8px double azure;
+    border-radius: 0px 50px 0px 50px;
+    font-family: monospace;
+    font-size: large;
+    width: 500px;
+    height: 70px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 40px;
+
+}
