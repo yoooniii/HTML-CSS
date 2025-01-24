@@ -1,0 +1,22 @@
+body{
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/realistic-blurred-spring-background_52683-57042.jpg?semt=ais_hybrid');
+    
+}
+#sun{
+    position:absolute;
+    top: 200px;
+    right: 75px;
+}
+.box {
+    width: 900px;
+    height: 875px;
+    border: 1px solid rgb(40, 129, 5);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(0deg, #fffaa0ee 0%, #88e788ee 100%);
+  }
