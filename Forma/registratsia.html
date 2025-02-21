@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="registratsia.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h1 class="text1">Регистрация</h1>
+    <form>
+        <label for="name" class="text2">Трите имена на потребител:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="gender" class="text2">Пол:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="text2">Мъж</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="text2">Жена</label><br>
+
+        <label for="place" class="text2">Град/Село:</label><br>
+        <select name="place" id="place">
+        <option value="sofia">София</option>
+        <option value="plovdiv">Пловдив</option>
+        <option value="varna">Варна</option>
+        <option value="burgas">Бургас</option>
+        <option value="ruse">Русе</option>
+        <option value="stz">Стара Загора</option>
+        </select><br>
+
+        <label for="address" class="text2">Адрес:</label><br>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="password" class="text2">Парола:</label><br>
+        <input type="text" id="password" name="password"><br>
+
+        <label for="email" class="text2">Имейл:</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <input type="submit" value="Изпрати"><br>
+    </form>
+</body>
+</html>

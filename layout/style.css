@@ -1,0 +1,57 @@
+body{
+    background-color: #666465;
+    margin: 0;
+    text-align: center;
+}
+a{
+    color: #f2eff0;
+    text-decoration: none;
+}
+a:hover{
+    color: #558cc6;
+}
+#wrapper{
+    width: 760px;
+    background-color: #f2eff0;
+    text-align: left;
+    margin: 0;
+}
+#header{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#logo{
+    height: 71px;
+    background-color: white;
+    padding-bottom: 12px;
+}
+#nav{
+    background-color: #2b3031;
+    height: 28px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#content{
+    margin-top: 0;
+}
+#leftColumn{
+   text-align: left;
+    margin-left: 10px;
+    width: 365px;
+}
+#rightColumn{
+    text-align: left;
+    margin-right: 10px;
+    width: 365px;
+    float: right;
+}
+
+#footer{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+}
+
+
