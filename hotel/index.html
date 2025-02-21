@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СПА ХОТЕЛ "ДЕВИН"</title>
+</head>
+<body>
+    <h2>Заявка за резервация:</h2>
+    <form>
+        <label for="radio">Изберете тип стая:</label><br>
+        <input type="radio" id="twobed" name="room type" value="Стая 2 легла">
+        <label for="twobed">Стая 2 легла</label><br>
+        <input type="radio" id="threebed" name="room type" value="Стая 3 легла">
+        <label for="threebed">Стая 3 легла</label><br>
+        <input type="radio" id="fourbed" name="room type" value="Стая 4 легла">
+        <label for="fourbed">Стая 4 легла</label><br>
+        <input type="radio" id="studio" name="room type" value="Студио">
+        <label for="studio">Студио</label><br>
+        <input type="radio" id="apartment" name="room type" value="Апартамент">
+        <label for="apartment">Апартамент</label><br>
+    </form>
+    <form>
+    <label for="pansion">Пансион:</label>
+    <select name="pansion" id="pansion">
+    <option value="bb">нощувка със закуска(BB)</option>
+    <option value="hb">полупансион(HB)</option>
+    <option value="fb">пълен пансион(FB)</option>
+    </select>
+    </form>
+    <form class="dates">
+        <div class="left">
+        <label for="date">От: <b>ден</b></label>
+        <input type="text" id="fdated" name="fromdate"><br>
+        <label for="date">До: <b>ден</b></label>
+        <input type="text" id="tdated" name="todate"><br>
+        </div>
+        <div class="right">
+        <label for="date"><b>месец:</b></label>
+        <input type="text" id="fdatem" name="fromdate"><br>
+        <label for="date"><b>месец:</b></label>
+        <input type="text" id="tdatem" name="todate"><br>
+        </div>
+    </form >
+    <form class="info">
+        <div class="left">
+        <label for="fname">Име: </label>
+        <input type="text" id="fname" name="fname"><br> 
+        <label for="adults">Възрастни: </label>
+        <input type="text" id="adults" name="adults"><br>
+        <label for="kids">Деца: </label>
+        <input type="text" id="kids" name="kids"><br>
+        </div>
+        <div class="right">
+        <label for="phone">Телефон: </label>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="age">Възраст: </label>
+        <input type="text" id="age" name="age"><br>
+        <label for="email">E-mail: </label>
+        <input type="text" id="email" name="email"><br>
+        </div>
+    </form>
+    <p>Всички полета са задължителни! <br>
+        Деца до 2 години безплатно. <br>
+        До 7год. -50% отстъпка за едно легло. <br>
+    </p>
+    <h3 style="text-align: center;"><i>Допълнителни изисквания за гостите: </i></h3>
+    <form class="extras">
+    <div class="left">
+        <input type="checkbox" id="quiet" name="quiet">
+        <label for="quiet">тиха стая</label><br>
+        <input type="checkbox" id="bed" name="one bed">
+        <label for="bed">спалня</label><br>
+        <input type="checkbox" id="separate" name="separate beds">
+        <label for="separate">отделни легла</label><br>
+    </div>
+    <div class="right">
+        <input type="checkbox" id="smoker" name="smoker">
+        <label for="smoker">пушачи</label><br>
+        <input type="checkbox" id="nosmoker" name="no smoker">
+        <label for="quiet">непушачи</label><br>
+        <input type="checkbox" id="hfloor" name="high floor">
+        <label for="hfloor">висок етаж</label><br>
+        </div>
+        <div>
+        <input type="checkbox" id="lfloor" name="low floor">
+        <label for="lfloor">нисък етаж</label><br>
+        <label for="other">Друго</label>
+        <input type="text" id="other" name="other">
+        </div>
+    </form>
+    <p>Начин на плащане: </p>
+    <form class="payment">
+        <div class="left">
+        <input type="checkbox" id="cash" name="cash">
+        <label for="cash">в брой</label><br>
+        <input type="checkbox" id="bank" name="bank">
+        <label for="bank">по банков път</label><br>
+        </div>
+        <div class="right">
+        <input type="checkbox" id="creditcard" name="credit card">
+        <label for="creditcard">кредитна карта</label><br>
+        <input type="checkbox" id="inoffice" name="in office">
+        <label for="inoffice">в офиса в София</label><br>
+    </div>
+</form>
+</body>
+</html>

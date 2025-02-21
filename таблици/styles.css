@@ -1,0 +1,12 @@
+p{
+    font-size: 48px;
+    background-color: violet;
+}
+.special{
+    background-color: white;
+    color: lightblue;
+    font-family: monospace;
+}
+#content{
+    background-color:orchid;
+}

@@ -1,0 +1,37 @@
+form {
+
+    display: block;
+    margin-bottom: 5px;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.tdatem{
+    float: right;
+    margin: auto;
+}
+.dates{
+    display:flex;
+}
+.left{ 
+    flex-direction: row;
+}
+.right{
+ flex: 1;
+ margin-left: 30px;
+ flex-direction: column;
+}
+.info{
+    display:flex; 
+}
+.extras{
+    display: flex;
+}
+.payment{
+    display: flex;
+}
+.centre{
+    align-items: center;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#colon{
+    background-color: seagreen;
+    color:rgb(5, 75, 5);
+}
+    </style>
+</head>
+<body>
+    <h2>1.</h2>
+    <table border="1">
+        <tr>
+            <th><strong>Име</strong></th>
+            <th colspan="2"><strong>Телефон</strong></th>
+        </tr>
+        <tr>
+            <td>Бил Гейтс</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th><strong>Име:</strong></th>
+            <td>Бил Гейтс</td>
+        </tr>
+        <tr>
+            <th rowspan="2"><strong>Телефон</strong></th>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <h2>2.</h2>
+    <table border="1" cellspacing=5>
+<tr>
+    <td style="background-color: cyan; color: darkblue;">1-ви ред, 1-ва колона</td>
+    <td style="background-color: darkcyan; color:cornflowerblue;">1-ви ред, 2-ра колона</td>
+</tr>
+<tr>
+    <td style="background-color: cyan; color: darkblue;">2-ри ред, 1-ва колона</td>
+    <td style="background-color: darkcyan; color:cornflowerblue;">2-ри ред, 2-ра колона</td>
+</tr>
+        </table>
+   <h2>3.</h2>
+    <table border="1" cellspacing=5>
+<tr>
+    <td style="background-color:royalblue; color:salmon" colspan=3>Това е ред, обединяващ 3 колони</td>
+</tr>
+<tr id="colon">
+    <td>1-ва колона</td>
+    <td>2-ра колона</td>
+    <td>3-та колона</td>
+</tr>
+        </table>
+        <h2>4.</h2>
+        <table border=1>
+            <tr>
+                <td rowspan=3>Лява колона, обединяваща 3 реда</td>
+                <td colspan=3>Горен ред, обединяващ 3 колони</td>
+                <td rowspan=3>Дясна колона, обединяваща 3 реда</td>
+            </tr>
+            <tr>
+                <td>1-ва колона</td>
+                <td>2-ра колона</td>
+                <td>3-та колона</td>  
+            </tr>
+            <tr>
+                <td colspan=3>Долен  ред, обединяващ 3 колони</td>
+            </tr>
+        </table>
+</body>
+</html>
